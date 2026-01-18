@@ -116,3 +116,86 @@ Suspicious or confirmed security issue with **minimal impact**.
 - No customer impact
 - No revenue or regula
 
+### Technical Impact Indicators
+- Isolated system or user
+- No privilege escalation
+- No lateral movement
+- No persistence identified
+
+### Response Expectations
+- SOC-managed investigation
+- Documented analysis and remediation
+- No executive escalation required
+- Postmortem optional but encouraged for learning
+
+---
+
+## 7. SEV-4 — Low / Informational Incident
+
+### Definition
+Low-risk event or confirmed false positive.
+
+### Business Impact Indicators
+- None
+
+### Technical Impact Indicators
+- Benign activity
+- Expected behavior
+- Informational alerts only
+
+### Response Expectations
+- Document and close
+- Tune detection rules if needed
+- No escalation required
+
+---
+
+## 8. Automatic Severity Elevation Triggers
+
+Any of the following conditions **automatically elevate severity** by at least one level:
+
+- Production systems involved
+- Privileged identities affected
+- Multiple systems or users impacted
+- Unknown or expanding blast radius
+- Evidence of lateral movement
+- Detection gaps discovered during investigation
+
+Primary responders are expected to **err on the side of escalation**.
+
+---
+
+## 9. Primary Responder Responsibilities
+
+The Primary Responder is responsible for:
+- Initial severity recommendation
+- Clear justification using this matrix
+- Prompt escalation if severity is unclear
+- Re-evaluating severity as new evidence emerges
+
+Severity classification is **dynamic** and must be updated as the incident evolves.
+
+---
+
+## 10. AWS Mapping (Reference)
+
+This severity model is platform-agnostic. Common AWS-related examples include:
+
+- **Identity Impact:** IAM role compromise, access key misuse, MFA bypass
+- **Compute Impact:** EC2 compromise, unauthorized AMI usage
+- **Network Impact:** Malicious traffic detected via VPC Flow Logs
+- **Data Impact:** S3 access anomalies, snapshot exposure
+- **Detection:** GuardDuty, Security Hub, CloudTrail alerts
+
+---
+
+## 11. Key Principles
+
+- Severity reflects **impact, not effort**
+- Business and technical risk are equally important
+- Escalation is safer than under-classification
+- Documentation matters as much as mitigation
+
+---
+
+**End of Document**
