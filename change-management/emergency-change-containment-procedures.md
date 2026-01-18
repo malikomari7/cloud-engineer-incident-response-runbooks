@@ -7,11 +7,14 @@
 **Audience:** Cloud Engineers, Security Engineers, SOC, Incident Command
 
 ---
-## Workflow Overview
+## Emergency Change Workflow
 
-![Emergency Change Management Workflow](./diagrams/emergency-change-management-flow.png)
+![Emergency Change Management Flow](./diagrams/emergency-change-management-flow.png)
 
-*This diagram illustrates the security-led incident response flow from initial alert validation through escalation, containment, recovery, and post-incident review.*
+*This workflow demonstrates how emergency security changes are authorized, executed, and reviewed with retroactive approval during active incidents.*
+
+Emergency changes prioritize rapid containment while preserving evidence and maintaining auditability through post-incident review.
+
 
 ## 1. Purpose
 
