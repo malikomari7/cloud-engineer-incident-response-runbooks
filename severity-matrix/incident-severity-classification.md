@@ -6,6 +6,13 @@
 **Audience:** Cloud Engineers, Security Engineers, SOC Analysts, Incident Command
 
 ---
+## Severity Determination Overview
+
+![Incident Severity Impact Matrix](./diagrams/incident-severity-impact-matrix.png)
+
+*This matrix shows how incident severity is determined by evaluating both business impact and technical impact, with escalation driven by the highest applicable risk.*
+
+Severity classification is reassessed continuously as new information becomes available during an incident.
 
 ## 1. Purpose
 
