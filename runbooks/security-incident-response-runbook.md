@@ -7,6 +7,12 @@
 **Change Model:** Emergency changes allowed with retroactive approval
 
 ---
+## Workflow Overview
+
+![Incident Response Workflow](./diagrams/incident-response-workflow.png)
+
+*This diagram illustrates the security-led incident response flow from initial alert validation through escalation, containment, recovery, and post-incident review.*
+
 
 ## 1. Purpose
 
