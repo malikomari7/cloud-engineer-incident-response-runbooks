@@ -6,6 +6,14 @@
 **Audience:** Engineering, Security, Leadership (Sanitized Version)
 
 ---
+## Post-Incident Learning Loop
+
+![Blameless Postmortem Feedback Loop](./diagrams/blameless-postmortem-feedback-loop.png)
+
+*This diagram represents the post-incident learning loop used to identify root causes, implement preventative actions, and continuously improve system resilience.*
+
+The postmortem process is blameless by design and focuses on systemic improvements rather than individual fault.
+
 
 ## 1. Purpose
 
